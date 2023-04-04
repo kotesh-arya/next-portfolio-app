@@ -1,12 +1,16 @@
-import '../styles/globals.css'
-// import "tailwindcss/tailwind.css";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
-function MyApp({ Component, pageProps }) {
+import '../styles/globals.css';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+import About from '../components/About';
+import Projects from '../components/Projects';
+import Contact from '../components/Contact';
+function MyApp() {
   return (
     <>
       <Navigation />
-      <Component {...pageProps} />
+      <About />
+      <Projects />
+      <Contact />
       <Footer />
     </>
   );
